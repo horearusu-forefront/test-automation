@@ -1,0 +1,25 @@
+{
+  "name": "test-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:a11y": "playwright test tests/a11y.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horearusu-forefront/test-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horearusu-forefront/test-automation/issues"
+  },
+  "homepage": "https://github.com/horearusu-forefront/test-automation#readme",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.64.0"
+  }
+}
